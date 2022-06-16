@@ -23,7 +23,7 @@
 `./imgconv.exe <in_file> <out_file> [convert|hmirror|vmirror|sobel|negate|cypher <key>]`
 
 * convert – конвертирование изображения из одного типа в другой. Поддержка ppm, jpeg, bmp.\
-Пример: `./imgconv.exe cat.bmp cat.jpg covert`
+Пример: `./imgconv.exe cat.bmp cat.jpg convert`
 ![cat](https://user-images.githubusercontent.com/88826237/174062899-8618411b-3b35-457b-a1f3-39c7c94ead9d.jpg)
 * hmirror – отражение изображения по горизонтали и сохранение результата в любой тип файла\
 Пример: `./imgconv.exe cat.bmp cat.jpg hmirror`
